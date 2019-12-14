@@ -3,6 +3,8 @@
 // http://www.emulator101.com/8080-by-opcode.html
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
+#include <fstream>
 using namespace std;
 
 int Disassemble(unsigned char* codebuffer, int pc) {

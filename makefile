@@ -6,7 +6,7 @@ default: emulator
 
 
 emulator: $(OBJECTS) $(SOURCES) $(HEADERS)
-	gcc -lstdc++ $(OBJECTS) -o $@
+	clang++ $(OBJECTS) -o $@
 
 clean:
 	rm *.o emulator
